@@ -1,0 +1,117 @@
+#luna {
+    
+    top:5%;
+    width: 80%;
+    
+}
+#lunaimg {
+    height: 10%;
+    background-attachment: fixed;
+}
+#nave {
+    
+    top:5%;
+    width:70%;}
+#naveimg{
+    height:20%;
+    background-attachment: fixed;
+    
+}
+
+body,html{
+height:80%;
+padding:0px;
+margin:0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.Instruccions) {
+    background-color: #c30338;
+}
+
+.Activitat {
+    background-color: #112ba5;
+}
+
+.Control,.Options{
+    display:inline-block;
+    width:25%;
+    height:100%;
+    text-align: center;
+    background-color: grey;
+    padding: 130px 68px;
+    align-content: center;
+    
+    
+}    
+
+.piepagina{
+    text-align: center; 
+    background-color: grey;
+    height:10%;
+    width:100%;
+    position:fixed;
+    bottom:0px;
+}
+
+.Central{
+    display:inline-block;
+    width:49%;
+    height:100%;
+    background-color: bisque;
+    padding: 40px 250px;
+    
+}
+
+h4 {
+    background-color: chartreuse;
+}
+
+.friki{
+    display:inline-block;
+    width:40%;
+    height:90%;
+    background-color: white;
+    padding: 30px 0px;
+}
+#friki {
+    top:5%;
+    width: 80%;
+}
+#friki {
+    height: 10%;
+    background-attachment: fixed;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: grey;
+    clear: left;
+    text-align: center;
+}
